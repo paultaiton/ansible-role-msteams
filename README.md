@@ -15,11 +15,11 @@ Dependencies
 Example Playbook
 ----------------
 
-		- name: vscode Role
+		- name: MS Teams Role
 		  hosts: all
 		  become: yes
 		  roles:
-		    - paultaiton.vscode
+		    - paultaiton.msteams
 
 License
 -------
