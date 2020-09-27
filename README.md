@@ -15,9 +15,11 @@ Dependencies
 Example Playbook
 ----------------
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+		- name: vscode Role
+		  hosts: all
+		  become: yes
+		  roles:
+		    - paultaiton.vscode
 
 License
 -------
