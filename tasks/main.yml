@@ -5,7 +5,7 @@
     state: present
     key: https://packages.microsoft.com/keys/microsoft.asc
 
-- name: Yum repo definitions 
+- name: Yum repo definitions
   copy:
     dest: /etc/yum.repos.d
     owner: root
